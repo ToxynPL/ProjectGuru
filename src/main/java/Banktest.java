@@ -8,20 +8,34 @@ import java.io.*;
 
 public class Banktest extends Util{
 
+  /**  public class setBaseURL() {
+        WebDriver driver = new FirefoxDriver();
+        String baseUrl = new String(Util.baseUrl);
+        driver.get(baseUrl);
+
+    }**/
+
+
     public static void main(String[] args) {
 
 
-        //Util User = new Util();
-       // Util Password = new Util();
+        /*
+       Util User = new Util();
+       Util Password = new Util();
+       */
 
-        String baseUrl = "http://www.demo.guru99.com/V4/";
-      //  String User = "mngr55722";
-       // String Password = "udadajA";
-        // String expectedTitle = "Login successful";
-        // String alertMessage = "";
+        String baseUrl = new String(Util.baseUrl);
+        String firefox = new String (Util.firefox);
+        String gecodriver = new String (Util.gecodriver);
+      /*
+       String User = "mngr55722";
+       String Password = "udadajA";
+       String expectedTitle = "Login successful";
+       String alertMessage = "";
+       */
 
 
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\Krzysztof\\Desktop\\geckodriver.exe");
+        System.setProperty(gecodriver,firefox);
         WebDriver driver = new FirefoxDriver();
        // String alertMessage = "";
         driver.get(baseUrl);
