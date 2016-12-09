@@ -14,9 +14,10 @@ public class Util {
     public static final int WaitTime = 30;
 
     //Firefox path
+   public static final String FIREFOX_PATH = "C:\\Program Files (x86)\\Mozilla Firefox\\fiefox.exe";
     public static final String firefox = "C:\\Users\\Krzysztof\\Desktop\\geckodriver.exe";
-    public static final String gecodriver = "webdriver.gecko.driver";
+    public static final String geckodriver = "webdriver.gecko.driver";
 
     //Expected output
-    public static final String ExpectTitle = "Guru99 Bank Manager HomePage";
+    public static final String ExpectTitle = " Guru99 Bank Manager HomePage ";
 }
